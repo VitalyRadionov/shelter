@@ -1,0 +1,23 @@
+@media(max-width: 880px) {
+	.wrapper-not-only {
+		align-items: end;
+	}
+
+	.wrapper-pets {
+		padding: 5rem 1.875rem 6.25rem 1.875rem;
+
+		display: grid;
+		grid-template-rows: auto auto auto;
+		justify-items: center;
+		gap: 1.5625rem 0rem;
+	}
+
+	.slider-container {
+		padding: 0 0.75rem;
+	}
+
+	.slide {
+		grid-template-columns: repeat(2, 16.875rem);
+		justify-content: space-around;
+	}
+}

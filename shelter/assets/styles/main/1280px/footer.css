@@ -1,0 +1,81 @@
+.footer {
+	display: grid;
+	grid-template-columns: minmax(auto, 80rem);
+	justify-content: center;
+
+	grid-row: 3/3;
+	grid-column: 1;
+
+	background:
+		url(./../../../../assets/images/start-screen-gradient-background.png),
+		radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%),
+		#211F20;
+}
+
+.wrapper-footer {
+	padding: 2.5rem 2.5rem 0 2.5rem;
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: min(calc(10rem - (1280px - 100% - 5rem)), 10rem);
+}
+
+.contacts,
+.location {
+	padding-top: 1rem;
+	padding-bottom: 3.75rem;
+
+	height: 14.625rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contacts-title,
+.location-title,
+.contacts-title-768px,
+.location-title-768px {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.1875rem;
+	line-height: 130%;
+	/* or 45px */
+
+	letter-spacing: 0.06em;
+
+	color: #FFFFFF;
+}
+
+.contacts-title-768px,
+.location-title-768px {
+	display: none;
+}
+
+.contacts-link,
+.location-link {
+	display: grid;
+	align-items: center;
+	justify-content: start;
+	grid-template-columns: auto auto;
+	gap: 1.25rem;
+
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 115%;
+	/* identical to box height, or 23px */
+
+	letter-spacing: 0.06em;
+
+	color: #F1CDB3;
+	transition: all 0.5s;
+}
+
+.contacts-link:hover,
+.location-link:hover {
+	color: #ffb580;
+	transition: all 0.5s;
+}

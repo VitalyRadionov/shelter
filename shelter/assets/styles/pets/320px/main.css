@@ -1,0 +1,38 @@
+@media (max-width: 580px) {
+	.wrapper-pets {
+		padding: 2.625rem 0.625rem;
+		gap: 2.625rem;
+	}
+
+	.pets-heading {
+		font-size: 1.5625rem;
+	}
+
+	/* .slider {
+		gap: 2.625rem;
+	} */
+
+	/* .slider-list {
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+	} */
+
+	/* .slider-list-row:first-child {
+		padding: 0 0.9375rem;
+		grid-template-columns: auto;
+		grid-template-rows: repeat(3, auto);
+		gap: 1.875rem;
+	} */
+
+	/* .slider-list-row:last-child {
+		display: none;
+	} */
+
+	/* .card:last-child {
+		display: none;
+	} */
+
+	.slider-nav {
+		gap: 0.625rem;
+	}
+}

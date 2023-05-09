@@ -1,0 +1,32 @@
+@import url(./../../assets/styles/import-main.css);
+
+/* 1em = 16px */
+:root {
+	--content-heading: 2.75rem;
+	/* 35px */
+	--fz-heading: 2.1875rem;
+	/* 32px */
+	--h1: 2rem;
+	/* 17px */
+	--content-button: 1.0625rem;
+	/* 15px */
+	--menu: 0.9375rem;
+	/* 13px */
+	--logo-sub: 0.8125rem;
+
+	/* margin */
+	/* 10px */
+	--logo-sub-mt: 0.625rem;
+
+	/* 1280px */
+	--width-content: 80rem;
+	/* 100px */
+	--border-radius: 6.25rem;
+}
+
+@media (max-width: 614px) {
+	:root {
+		--content-heading: 1.5625rem;
+		--fz-heading: 1.5625rem;
+	}
+}

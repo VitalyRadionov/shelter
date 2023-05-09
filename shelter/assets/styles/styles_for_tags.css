@@ -1,0 +1,25 @@
+html {
+	scrollbar-gutter: stable;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0 auto auto;
+	overflow-x: hidden;
+}
+
+h1,
+p,
+nav,
+h3,
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}

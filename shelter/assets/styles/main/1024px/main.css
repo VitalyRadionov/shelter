@@ -1,0 +1,33 @@
+@media(max-width: 1150px) {
+	.content {
+		margin-bottom: min(10%, 5rem);
+		row-gap: 2rem;
+	}
+
+	.wrapper-about {
+		padding: 5rem 0rem 6.25rem 0rem;
+
+		grid-template-columns: auto 20.875rem;
+		gap: 2.5rem;
+	}
+
+	.slide {
+		/* width: 100%; */
+		/* height: 27.1875rem; */
+		/* display: grid; */
+		grid-template-columns: repeat(2, 16.875rem);
+		/* justify-content: space-around; */
+		justify-content: space-around;
+		/* gap: min(10%, 5.625rem); */
+		/* grid-row: 1; */
+		/* grid-column: 1; */
+
+		/* position: relative; */
+		/* left: 0px; */
+		/* transition: all 1000ms; */
+	}
+
+	.card:nth-child(3) {
+		display: none;
+	}
+}

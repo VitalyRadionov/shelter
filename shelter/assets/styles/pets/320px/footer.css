@@ -1,0 +1,50 @@
+@media (max-width: 765px) {
+	.wrapper-footer {
+		padding: 1.875rem 0.625rem 0 0.625rem;
+
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, auto);
+	}
+
+	.contacts,
+	.location {
+		padding-bottom: 2.5rem;
+		align-items: center;
+	}
+
+	.contacts {
+		max-height: 13rem;
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.location {
+		width: 100%;
+		max-height: 13.875rem;
+
+		flex-wrap: wrap;
+		align-content: center;
+		align-items: stretch;
+
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.contacts-title,
+	.location-title {
+		display: none;
+	}
+
+	.contacts-title-768px,
+	.location-title-768px {
+		display: block;
+		font-size: 1.5625rem;
+		text-align-last: center;
+	}
+
+	.footer-puppy {
+		max-width: 87%;
+		grid-column: 1;
+		grid-row: 3;
+	}
+}

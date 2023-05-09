@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+	.wrapper-footer {
+		padding: 1.875rem 4rem 0 4rem;
+
+		justify-content: center;
+		grid-template-columns: auto;
+		grid-template-rows: repeat(2, auto);
+
+		gap: 0rem 3.75rem;
+	}
+
+	.contacts,
+	.location {
+		padding-bottom: 4rem;
+	}
+}

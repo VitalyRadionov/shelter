@@ -1,0 +1,19 @@
+/* width: 1280px (default) */
+@import url(./fonts.css);
+@import url(./styles_for_tags.css);
+@import url(./pets-styles_for_tags.css);
+@import url(./modal-window.css);
+@import url(./pets/1280px/import-width-1280px.css);
+
+/* width: 1024px */
+@import url(./pets/1024px/import-width-1024px.css);
+
+/* width: 768px */
+@import url(./fading.css);
+@import url(./pets/768px/import-width-768px.css);
+
+/* width: 425px */
+@import url(./pets/425px/import-width-425px.css);
+
+/* width: 320px */
+@import url(./pets/320px/import-width-320px.css);
